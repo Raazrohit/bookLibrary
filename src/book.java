@@ -4,7 +4,15 @@ public class book {
     long iSBNNumber;
     String authorName;
 
-    public static void main(String[] args) {
+    book() {
+        title = "book1";
+        authorName = "author1";
+        yearOfPublishing = 2022;
+        iSBNNumber = 12346643535654L;
+
+    }
+
+   /* public static void main(String[] args) {
         book object = new book();
         System.out.println(object.title);
         System.out.println(object.authorName);
@@ -18,5 +26,5 @@ public class book {
         System.out.println(object.authorName);
         System.out.println(object.iSBNNumber);
         System.out.println(object.yearOfPublishing);
-    }
+    }*/
 }
