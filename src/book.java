@@ -13,7 +13,7 @@ public class book {
         object.title = "Complete reference 12th edition";
         object.authorName = "Herbert Schildth";
         object.yearOfPublishing = 2022;
-        object.iSBNNumber = 1234567891234455L;
+        object.iSBNNumber = 123456789L;
         System.out.println(object.title);
         System.out.println(object.authorName);
         System.out.println(object.iSBNNumber);
