@@ -1,4 +1,6 @@
-public class book {
+package Data;
+
+public class Book {
     private String title;
     private int yearOfPublishing;
     private long iSBNNumber;
@@ -35,19 +37,4 @@ public class book {
     public void setAuthorName(String authorName) {
         this.authorName = authorName;
     }
-   /* public static void main(String[] args) {
-        book object = new book();
-        System.out.println(object.title);
-        System.out.println(object.authorName);
-        System.out.println(object.iSBNNumber);
-        System.out.println(object.yearOfPublishing);
-        object.title = "Complete reference 12th edition";
-        object.authorName = "Herbert Schildth";
-        object.yearOfPublishing = 2022;
-        object.iSBNNumber = 123456789L;
-        System.out.println(object.title);
-        System.out.println(object.authorName);
-        System.out.println(object.iSBNNumber);
-        System.out.println(object.yearOfPublishing);
-    }*/
 }
