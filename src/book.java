@@ -1,17 +1,40 @@
 public class book {
-    String title;
-    int yearOfPublishing;
-    long iSBNNumber;
-    String authorName;
+    private String title;
+    private int yearOfPublishing;
+    private long iSBNNumber;
+    private String authorName;
 
-    book() {
-        title = "book1";
-        authorName = "author1";
-        yearOfPublishing = 2022;
-        iSBNNumber = 12346643535654L;
-
+    public String getTitle() {
+        return title;
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public int getYearOfPublishing() {
+        return yearOfPublishing;
+    }
+
+    public void setYearOfPublishing(int yearOfPublishing) {
+        this.yearOfPublishing = yearOfPublishing;
+    }
+
+    public long getiSBNNumber() {
+        return iSBNNumber;
+    }
+
+    public void setiSBNNumber(long iSBNNumber) {
+        this.iSBNNumber = iSBNNumber;
+    }
+
+    public String getAuthorName() {
+        return authorName;
+    }
+
+    public void setAuthorName(String authorName) {
+        this.authorName = authorName;
+    }
    /* public static void main(String[] args) {
         book object = new book();
         System.out.println(object.title);
